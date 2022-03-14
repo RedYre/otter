@@ -1,0 +1,64 @@
+osmway:14 osmt:name "Namecluster" .
+osmway:14 osmt:commonkey "commontag" .
+osmway:13 osmt:name "Namecluster" .
+osmway:13 osmt:commonkey "commontag" .
+osmway:15 osmt:name "NameclusterLongerChain" .
+osmway:15 osmt:commonkey "commontag" .
+osmway:15 osmt:commonkey2 "commontag2" .
+osmway:15 geof:sfContains osmway:10 .
+osmway:15 geof:sfContains osmway:11 .
+osmway:15 geof:sfContains osmway:12 .
+osmway:14 geof:sfContains osmway:6 .
+osmway:14 geof:sfContains osmway:7 .
+osmway:13 geof:sfContains osmway:8 .
+osmway:13 geof:sfContains osmway:9 .
+osmway:14 geo:hasGeometry "GEOMETRYCOLLECTION(LINESTRING(8.800000 50.800000,8.800000 51.010000),LINESTRING(8.800000 51.010000,9.100000 51.010000))"^^geo:wktLiteral .
+osmway:13 geo:hasGeometry "GEOMETRYCOLLECTION(LINESTRING(8.000000 50.000000,9.000000 50.000000),LINESTRING(9.000000 50.000000,9.000000 51.000000))"^^geo:wktLiteral .
+osmway:15 geo:hasGeometry "GEOMETRYCOLLECTION(LINESTRING(8.000000 50.000000,9.000000 50.000000,9.000000 51.000000),LINESTRING(9.000000 51.000000,8.000000 51.000000),LINESTRING(8.000000 51.000000,8.020000 50.020000,8.030000 50.030000))"^^geo:wktLiteral .
+osmway:1 geo:hasGeometry "POLYGON((8.000000 50.000000, 9.000000 50.000000, 9.000000 51.000000, 8.000000 51.000000, 8.000000 50.000000))"^^geo:wktLiteral  .
+osmnode:2 geof:sfWithin osmrel:1 .
+osmrel:1 geof:sfContains osmnode:2 .
+osmnode:2 geof:sfIntersects osmrel:1 .
+osmrel:1 geof:sfIntersects osmnode:2 .
+osmway:2 geo:hasGeometry "LINESTRING(8.020000 50.020000, 8.030000 50.030000)"^^geo:wktLiteral  .
+osmway:3 geof:sfIntersects osmrel:1 .
+osmrel:1 geof:sfIntersects osmway:3 .
+osmway:3 geo:hasGeometry "LINESTRING(8.800000 50.880000, 8.800000 51.010000)"^^geo:wktLiteral  .
+osmway:4 geof:sfWithin osmrel:1 .
+osmrel:1 geof:sfContains osmway:4 .
+osmway:4 geof:sfIntersects osmrel:1 .
+osmrel:1 geof:sfIntersects osmway:4 .
+osmway:4 geo:hasGeometry "POLYGON((8.050000 50.050000, 8.060000 50.050000, 8.060000 50.060000, 8.050000 50.050000))"^^geo:wktLiteral  .
+osmway:5 geof:sfIntersects osmrel:1 .
+osmrel:1 geof:sfIntersects osmway:5 .
+osmway:5 geo:hasGeometry "POLYGON((8.800000 50.800000, 8.800000 51.010000, 9.100000 51.010000, 8.800000 50.800000))"^^geo:wktLiteral  .
+osmway:6 geof:sfIntersects osmrel:1 .
+osmrel:1 geof:sfIntersects osmway:6 .
+osmway:6 geo:hasGeometry "LINESTRING(8.800000 50.800000, 8.800000 51.010000)"^^geo:wktLiteral  .
+osmway:7 geo:hasGeometry "LINESTRING(8.800000 51.010000, 9.100000 51.010000)"^^geo:wktLiteral  .
+osmnode:8 geof:sfWithin osmrel:1 .
+osmrel:1 geof:sfContains osmnode:8 .
+osmnode:8 geof:sfIntersects osmrel:1 .
+osmrel:1 geof:sfIntersects osmnode:8 .
+osmway:8 geo:hasGeometry "LINESTRING(8.000000 50.000000, 9.000000 50.000000)"^^geo:wktLiteral  .
+osmnode:9 geof:sfWithin osmrel:1 .
+osmrel:1 geof:sfContains osmnode:9 .
+osmnode:9 geof:sfIntersects osmrel:1 .
+osmrel:1 geof:sfIntersects osmnode:9 .
+osmway:9 geo:hasGeometry "LINESTRING(9.000000 50.000000, 9.000000 51.000000)"^^geo:wktLiteral  .
+osmnode:10 geof:sfWithin osmrel:1 .
+osmrel:1 geof:sfContains osmnode:10 .
+osmnode:10 geof:sfIntersects osmrel:1 .
+osmrel:1 geof:sfIntersects osmnode:10 .
+osmway:10 geo:hasGeometry "LINESTRING(8.000000 50.000000, 9.000000 50.000000, 9.000000 51.000000)"^^geo:wktLiteral  .
+osmnode:11 geof:sfWithin osmrel:1 .
+osmrel:1 geof:sfContains osmnode:11 .
+osmnode:11 geof:sfIntersects osmrel:1 .
+osmrel:1 geof:sfIntersects osmnode:11 .
+osmway:11 geo:hasGeometry "LINESTRING(9.000000 51.000000, 8.000000 51.000000)"^^geo:wktLiteral  .
+osmnode:12 geof:sfWithin osmrel:1 .
+osmrel:1 geof:sfContains osmnode:12 .
+osmnode:12 geof:sfIntersects osmrel:1 .
+osmrel:1 geof:sfIntersects osmnode:12 .
+osmway:12 geo:hasGeometry "LINESTRING(8.000000 51.000000, 8.020000 50.020000, 8.030000 50.030000)"^^geo:wktLiteral  .
+osmrel:1 geo:hasGeometry "GEOMETRYCOLLECTION(POLYGON((8.000000 50.000000,9.000000 50.000000,9.000000 51.000000,8.000000 51.000000,8.000000 50.000000)))"^^geo:wktLiteral .

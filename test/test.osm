@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<osm version="0.6" generator="osmium/1.8.0">
+  <bounds minlat="53.01034" minlon="8.480959" maxlat="53.61063" maxlon="8.991268"/>
+  <node id="1" version="6" timestamp="2011-03-29T21:43:10Z" lat="53.0749415" lon="8.7868047"/>
+  <node id="2" version="11" timestamp="2011-03-29T21:43:03Z" lat="53.071932" lon="8.7840591"/>
+  <node id="3" version="16" timestamp="2015-03-04T12:07:15Z" lat="53.070685" lon="8.7819939">
+    <tag k="highway" v="motorway_junction"/>
+    <tag k="name" v="Bremen-Neustadt"/>
+  </node>
+  <way id="100" version="30" timestamp="2020-10-20T17:05:52Z">
+    <nd ref="20958823"/>
+    <nd ref="20973902"/>
+    <tag k="cycleway:right" v="track"/>
+    <tag k="highway" v="secondary"/>
+    <tag k="lit" v="yes"/>
+    <tag k="loc_name" v="Langer Jammer"/>
+    <tag k="maxspeed" v="50"/>
+    <tag k="name" v="Lilienthaler Heerstraße"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="surface" v="asphalt"/>
+    <tag k="wikipedia" v="de:Lilienthaler Heerstraße"/>
+  </way>
+  <relation id="1000" version="1" timestamp="2022-03-05T12:44:52Z">
+    <member type="way" ref="23619512" role=""/>
+    <member type="node" ref="255856327" role=""/>
+    <tag k="type" v="restriction"/>
+  </relation>
+</osm>

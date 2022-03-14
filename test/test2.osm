@@ -1,0 +1,118 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<osm version="0.6" generator="osmium/1.8.0">
+  <bounds minlat="53.01034" minlon="8.480959" maxlat="53.61063" maxlon="8.991268"/>
+  <node id="1" version="6" timestamp="2011-03-29T21:43:10Z" lat="50.000000" lon="8.0000000"/>
+  <node id="2" version="11" timestamp="2011-03-29T21:43:03Z" lat="50.000000" lon="9.0000000"/>
+  <node id="3" version="11" timestamp="2011-03-29T21:43:03Z" lat="51.000000" lon="9.0000000"/>
+  <node id="4" version="11" timestamp="2011-03-29T21:43:03Z" lat="51.000000" lon="8.0000000"/>
+  <node id="5" version="11" timestamp="2011-03-29T21:43:03Z" lat="50.020000" lon="8.0200000"/>
+  <node id="6" version="11" timestamp="2011-03-29T21:43:03Z" lat="50.030000" lon="8.0300000"/>
+  <node id="7" version="11" timestamp="2011-03-29T21:43:03Z" lat="50.880000" lon="8.800000"/>
+  <node id="8" version="11" timestamp="2011-03-29T21:43:03Z" lat="51.010000" lon="8.800000"/>
+  <node id="9" version="11" timestamp="2011-03-29T21:43:03Z" lat="50.050000" lon="8.0500000"/>
+  <node id="10" version="11" timestamp="2011-03-29T21:43:03Z" lat="50.050000" lon="8.0600000"/>
+  <node id="11" version="11" timestamp="2011-03-29T21:43:03Z" lat="50.060000" lon="8.0600000"/>
+  <node id="12" version="11" timestamp="2011-03-29T21:43:03Z" lat="50.800000" lon="8.800000"/>
+  <node id="13" version="11" timestamp="2011-03-29T21:43:03Z" lat="51.010000" lon="8.800000"/>
+  <node id="14" version="11" timestamp="2011-03-29T21:43:03Z" lat="51.010000" lon="9.100000"/>
+  <node id="15" version="16" timestamp="2015-03-04T12:07:15Z" lat="50.070685" lon="8.7819939">
+    <tag k="highway" v="motorway_junction"/>
+    <tag k="name" v="NodeInside"/>
+  </node>
+  <node id="16" version="16" timestamp="2015-03-04T12:07:15Z" lat="53.070685" lon="8.7819939">
+    <tag k="highway" v="motorway_junction"/>
+    <tag k="name" v="NodeOutside"/>
+  </node>
+  <way id="1" version="30" timestamp="2020-10-20T17:05:52Z">
+    <nd ref="1"/>
+    <nd ref="2"/>
+    <nd ref="3"/>
+    <nd ref="4"/>
+    <nd ref="1"/>
+  </way>
+  <way id="2" version="30" timestamp="2020-10-20T17:05:52Z">
+    <nd ref="5"/>
+    <nd ref="6"/>
+    <tag k="name" v="WayInside"/>
+  </way>
+  <way id="3" version="30" timestamp="2020-10-20T17:05:52Z">
+    <nd ref="7"/>
+    <nd ref="8"/>
+    <tag k="name" v="WayNotEnclosed"/>
+  </way>
+  <way id="4" version="30" timestamp="2020-10-20T17:05:52Z">
+    <nd ref="9"/>
+    <nd ref="10"/>
+    <nd ref="11"/>
+    <nd ref="9"/>
+    <tag k="name" v="PolygonEnclosed"/>
+  </way>
+  <way id="5" version="30" timestamp="2020-10-20T17:05:52Z">
+    <nd ref="12"/>
+    <nd ref="13"/>
+    <nd ref="14"/>
+    <nd ref="12"/>
+    <tag k="name" v="PolygonNotEnclosed"/>
+  </way>
+  <way id="6" version="30" timestamp="2020-10-20T17:05:52Z">
+    <nd ref="12"/>
+    <nd ref="13"/>
+    <tag k="name" v="Namecluster"/>
+    <tag k="commonkey" v="commontag"/>
+    <tag k="ownkey" v="thisvalue"/>
+  </way>
+  <way id="7" version="30" timestamp="2020-10-20T17:05:52Z">
+    <nd ref="13"/>
+    <nd ref="14"/>
+    <tag k="name" v="Namecluster"/>
+    <tag k="commonkey" v="commontag"/>
+    <tag k="ownkey" v="thatvalue"/>
+  </way>
+  <way id="8" version="30" timestamp="2020-10-20T17:05:52Z">
+    <nd ref="1"/>
+    <nd ref="2"/>
+    <tag k="name" v="Namecluster"/>
+    <tag k="commonkey" v="commontag"/>
+    <tag k="ownkey" v="thisvalue"/>
+  </way>
+  <way id="9" version="30" timestamp="2020-10-20T17:05:52Z">
+    <nd ref="2"/>
+    <nd ref="3"/>
+    <tag k="name" v="Namecluster"/>
+    <tag k="commonkey" v="commontag"/>
+    <tag k="ownkey" v="thatvalue"/>
+  </way>
+  <way id="10" version="30" timestamp="2020-10-20T17:05:52Z">
+    <nd ref="1"/>
+    <nd ref="2"/>
+    <nd ref="3"/>
+    <tag k="name" v="NameclusterLongerChain"/>
+    <tag k="commonkey" v="commontag"/>
+    <tag k="commonkey2" v="commontag2"/>
+    <tag k="ownkey" v="thisvalue"/>
+  </way>
+  <way id="11" version="30" timestamp="2020-10-20T17:05:52Z">
+    <nd ref="3"/>
+    <nd ref="4"/>
+    <tag k="name" v="NameclusterLongerChain"/>
+    <tag k="commonkey" v="commontag"/>
+    <tag k="commonkey2" v="commontag2"/>
+    <tag k="ownkey" v="thatvalue"/>
+  </way>
+  <way id="12" version="30" timestamp="2020-10-20T17:05:52Z">
+    <nd ref="4"/>
+    <nd ref="5"/>
+    <nd ref="6"/>
+    <tag k="name" v="NameclusterLongerChain"/>
+    <tag k="commonkey" v="commontag"/>
+    <tag k="commonkey2" v="commontag2"/>
+    <tag k="ownkey" v="thatvalue"/>
+  </way>
+  <relation id="1" version="1" timestamp="2022-03-05T12:44:52Z">
+    <member type="way" ref="1" role="outer"/>
+    <tag k="type" v="boundary"/>
+    <tag k="boundary" v="administrative"/>
+    <tag k="admin_level" v="5"/>
+    <tag k="name" v="Perimeter"/>
+  </relation>
+</osm>
