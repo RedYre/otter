@@ -9,3 +9,7 @@ Docker is used for the setup. Since we process large datasets which do not fit i
 
 docker build -t otter .\
 docker run -it -v path/to/your/dataset/directory:/container/mountme/ otter
+
+Inside the container one can run otter via:
+
+./otter -osmpath ../mountme/yourOSMdataSet.pbf -ttlpath ../mountme/yourOSMdataSet.ttl.bz2
